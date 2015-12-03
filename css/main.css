@@ -84,6 +84,7 @@ header {
     /*font-weight:200;*/
     color:#a0a0a0;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .nav-side > a {
@@ -174,7 +175,7 @@ select + a {
 	font-family: arial;
 	color: #FFFFFF !important;
 	font-size: 12px;
-	padding: 8px 22px;
+	padding: 8px 13px;
 	
 	/* -moz-border-radius: 8px;
 	-webkit-border-radius: 8px; */
@@ -193,6 +194,10 @@ select + a {
 	opacity: 1;
 }
 
+#button-arrow {
+	padding-left: 9px;
+	margin-bottom: -1px;
+}
 
 ol.carousel-nav {
 	padding: 0px;
@@ -284,4 +289,15 @@ strong {
   font-weight: 400;
 }
 
+.section-solutions {
+    box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
+    background: #46a2c7;
+    display: block;
+    height: 360px;
+    margin: -33px;
+}
 
+#solutions-title {
+	padding-left: 231px;
+	padding-top: 40px;
+}
