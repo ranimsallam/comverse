@@ -84,6 +84,7 @@ header {
     /*font-weight:200;*/
     color:#a0a0a0;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .nav-side > a {
@@ -170,11 +171,11 @@ select + a {
 	float: left;
 } 
 
-.learn-more-btn {
+.learn-more-btn , .solutions-button{
 	font-family: arial;
 	color: #FFFFFF !important;
 	font-size: 12px;
-	padding: 8px 22px;
+	padding: 8px 13px;
 	
 	/* -moz-border-radius: 8px;
 	-webkit-border-radius: 8px; */
@@ -193,6 +194,14 @@ select + a {
 	opacity: 1;
 }
 
+.solutions-button:hover {
+	opacity: 1;
+}
+
+#button-arrow {
+	padding-left: 9px;
+	margin-bottom: -1px;
+}
 
 ol.carousel-nav {
 	padding: 0px;
@@ -284,4 +293,94 @@ strong {
   font-weight: 400;
 }
 
+.section-solutions {
+    box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
+    background: #46a2c7;
+    display: block;
+    height: 360px;
+    margin: -33px;
+}
 
+#solutions-title {
+	padding-left: 231px;
+	padding-top: 40px;
+}
+
+.solutions-list {
+	padding: 20px 0 20px 0;
+}
+
+.solutions-list > li {
+	display: inline-block;
+	width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.solutions-list > li > a > figure {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.solutions-list > li > a > figure > figcaption {
+    padding-top: 10px;
+}
+
+.solutions-list > li a {
+    color:#FFF;
+    text-decoration: none;
+}
+
+.data-monetization {
+	padding-top: 21px;
+}
+
+.machine-to-machine {
+	margin-bottom: -3px;
+	padding-top: 5px;
+}
+
+.oot {
+	margin-top: 11px;
+	padding-left: 12px;
+}
+
+#flag-icon {
+	height: 74px;
+}
+
+#oot-figcaption{
+	padding-left: 5px;
+}
+
+.cloud {
+	padding-top: 13px;
+	margin-left: -15px;
+	margin-bottom: -2px;
+}
+
+#cloud-figcaption {
+	margin-left: -28px;
+}
+
+.services {
+	margin-bottom: -6px;
+}
+
+.social {
+	padding-top: 20px;
+}
+
+.solutions-button{
+	margin-left: 360px;
+	padding: 12px 15px;
+}
+
+#solutions-button-arrow {
+	padding-left: 10px;
+	margin-bottom: -2px;
+}
