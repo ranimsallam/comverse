@@ -10,6 +10,38 @@
 <body>
 	<header>
 		<div class="nav-container">
+
+		<!-- ########################### Mobile Version Nav Button ########################3-->
+                   <div class="mobile-navigation">
+
+                        <label class="mobile-nav" for="nav-mobile-btn">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </label>
+                        <input type="checkbox" id="nav-mobile-btn">
+
+                        <ul class="main-nav-mobile">
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-your-needs">
+                                <label for="mobile-sub-your-needs"><a href="#">Your Needs</a></label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-our-portfolio">
+                                <label for="mobile-sub-our-portfolio"><a href="#">Our Portfolio</a></label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-news-and-media">
+                                <label for="mobile-sub-news-and-media"><a href="#">News &amp; Media</a></label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-about-comverse">
+                                <label for="mobile-sub-about-comverse"><a href="#">About Comverse</a></label>
+                            </li>
+                        </ul>
+                    </div>
+
 		<!--############################## COMVERSE LOGO ##############################-->
 			<a href="index.html" title="Comverse" class="comverse-logo">
 				<img src="img/comverse-logo.png" alt="Comverse logo">
@@ -32,6 +64,7 @@
 					</li>
 				</ul>
 			</nav>
+			 <label class="mobile-search-icon" for="mobile-search"><a href="http://www.google.com/search"><img src="img/searchBtnMobile.png" alt="search"></a></label>
 
 			<div class="nav-side">
 				<select class="lang-select">
@@ -45,7 +78,11 @@
 
 			<form class="search-field" method="GET" action="http://www.google.com/search">
 	    		<input type="text" name="q" />
-	    		<button type="submit"><img src="img/searchBtn.png" alt="Search" /></button>
+	    		
+	    		<button type="submit">
+	    			<img id="btn-divider" src="img/divider.png" alt="divider"/>
+	    			<img src="img/searchBtn.png" alt="Search" />
+	    		</button>
 			</form>
 		</div>
 	</header>
@@ -54,8 +91,10 @@
 	<div class="section-banner">
 		<section class="section-container">	
 			<div id="welcome-text">
+			<div class="welcome-text2">
 				<h1><strong>Free</strong> Your Markets From <br> IT <strong>Complexity</strong></h1>
 	       		 <h3>Comverse Policy Studio <br> <strong>1st</strong> Ever Marketing-Oriented Policy Tool</h3> 
+	       	</div>
 	       		 <a href="#" class="learn-more-btn">
 	       		 	LEARN MORE
 	       		 	<img id="button-arrow" src="img/btnArrow.png" alt="Arrow">
@@ -63,7 +102,7 @@
 	       	
 			
 
-      		<ol class="carousel-nav"> 
+      			<ol class="carousel-nav"> 
 					<a href="#">
 						<li class="selected"></li>
 					</a>
@@ -79,7 +118,7 @@
 					<a href="#">
 						<li class="not-selected"></li>
 					</a>
-			</ol>
+				</ol>
 			</div>
 			
 			 <ul class="cubes-list">
@@ -125,88 +164,73 @@
 		<section class="section-container">
 
 			<h1 id="solutions-title">WHAT CAN WE DO FOR YOU? </h1>
-
+			
 			<ul class="solutions-list">
 	            <li>
-		            <a href="#">
-		                <figure>
-			                <div class="data-monetization">
-			                	<img src="img/data-monetization.png" alt="Data Monetization">
-			                </div>
-		                	<figcaption id="data-monetization-figcaption">Data monetization</figcaption>
+		            <a  href="#" >
+		                <figure class="data-monetization-figure" >
+		                	<figcaption class="data-monetization-figcaption">Business Stimulating Analytics</figcaption>
 		                </figure>
 		            </a>
 	            </li>
 
 	            <li>
 		            <a href="#">
-		                <figure>
-			                <div class="machine-to-machine">
-			                	<img src="img/robot-icon.png" alt="Robot icon">
-			                </div>
-			                <figcaption id="machine-to-machine-figcaption">Machine to machine (MTM)</figcaption>
+		                <figure class="machine-to-machine-figure">
+			                <figcaption id="machine-to-machine-figcaption">Digital Customer Experience</figcaption>
 		                </figure>
 		            </a>
 	            </li>
 
 	            <li>
 		            <a href="#">
-		                <figure>
-			                <div class="oot">
-			                	<img id="flag-icon" src="img/solution_icon_optimize-efficnt.png" alt="flag icon">
-			                </div>
-		                <figcaption id="oot-figcaption">Over-the-top <br> (OOT) </figcaption>
+		                <figure class="oot-figure">
+		               	 <figcaption id="oot-figcaption">Smart Monetization</figcaption>
 		                </figure>
 		            </a>
 	            </li>
 
 	            <li>
 		            <a href="#">
-		                <figure>
-			                <div class="cloud">
-			                	<img src="img/cloud-icon.png" alt="Cloud icon">
-			                </div>
-			                <figcaption id="cloud-figcaption">Cloud computing</figcaption>
+		                <figure class="cloud-figure">
+			                <figcaption id="cloud-figcaption">Optimization and Efficiency</figcaption>
 		                </figure>
 		            </a>
 	            </li>
 
 	            <li>
 		            <a href="#">
-		                <figure>
-			                <div class="services">
-			                	<img src="img/managed-services.png" alt="Services icon">
-			                </div>
-		                <figcaption id="services-figcaption">Managed services</figcaption>
+		                <figure class="services-figure">
+		                <figcaption id="services-figcaption">Personalized Choice &amp; Control</figcaption>
 		                </figure>
 		            </a>
 	            </li>
 
 	            <li>
 		            <a href="#">
-		                <figure>
-			                <div class="social">
-			                	<img src="img/social-icon.png" alt="Social media icon">
-			                </div>
-		                <figcaption id="social-figcaption">Social media</figcaption>
+		                <figure class="social-figure">
+		                <figcaption id="social-figcaption">Business Transformation</figcaption>
 		                </figure>
 		            </a>
 	            </li>
 
             </ul>
 
+			<div class="more-solutions-div">
             <a href="#" class="solutions-button">
 				See all of our solutions
 				<img id="solutions-button-arrow" src="img/btnArrow.png" alt="Arrow">
 			</a>
+			</div>
 
 		</section>
 	</div>
 
+			<!-- #################################- SECTION EVENTS -################################# -->
 	<div class="section-events">
 		<section class="section-container">
 			<h1 id="events-title" >WHAT'S HAPPENING AT COMVERSE?</h1>
-
+			
 			<ul class="events-list">
 				<li>
                     <a href="#">
@@ -219,7 +243,7 @@
                         </section>
                     </a>
                     <a class="all-link all-news-link" href="#">
-                    	<img src="img/eventListIconNews.png" alt="news icon"><span class="all-news-events">All news</span>
+                    	<span class="all-news-events">All news</span>
                     </a>
                 </li>
 
@@ -234,7 +258,7 @@
                         </section>
                     </a>
                     <a href="#" class="all-link all-events-link">
-                    	<img src="img/eventListIconEvents.png" alt="news icon"><span class="all-news-events">All Events</span>
+                    	<span class="all-news-events all-events-txt">All Events</span>
                     </a>
                  </li>
 
@@ -248,114 +272,127 @@
                             </article>
                         </section>
                     </a>
-                    <a href="#" class="all-link all-press-link">
-                    	<img src="img/eventListIconEvents.png" alt="news icon"><span class="all-news-events">All Events</span>
+                    <a href="#" class="all-link all-events-link">
+                    	<span class="all-news-events all-events-txt">All Events</span>
                     </a>
                 </li>
 			</ul>
 			
 		</section>
 	</div>
-
-	<div class="section-success-stories">
-		<section class="section-clients">
-			<section class="section-container">
-				<h1>SUCCESS STORIES</h1>
-				<ul class="clients-list">
-					<li>
-						<blockquote id="blockquote1">
-							<img src="img/CB-JP-face.png" alt="Buissness Man">
-							<!-- <div class="success-story1"> -->
-								<img id="quote-grey"src="img/quote-grey.png" alt="Quote icon">
-								<p>We have very good and very warm relations with Comverse. We always achieved.."</p>
-							<!-- </div> -->
-							<div class="personal-details personal-details1">
-								<p>
-									<a href="#">SERGEY KOROTYCH</a>
-								</p>
-								<p>Deputy CTO, 3 Mob Ukraine</p>
-								<div class="person-logo1">
-									<img src="img/3mob_w108px_X_h95px.jpg" alt="Person logo">
-								</div>
-							</div>
-						</blockquote>
-						<div class="logos">
-								<div class="company-logo1">
-									<img id="company-logo-1-1" src="img/cycle30.png" alt="Cycle30 logo">
-								</div>
-								<div class="company-logo1">
-									<img id="company-logo-1-2" src="img/bull.png" alt="Bull logo">
-								</div>
-								<div class="company-logo1">
-									<img id="company-logo-1-3" src="img/gemplus.png" alt="Gemplus logo">
-								</div>
-						</div>
-					</li>
-					<li>
-							<div class="logos logos-top">
-								<div class="company-logo">
-									<img src="img/mts_w108px_X_h95px.jpg" alt="MTC logo">
-								</div>
-								<div class="company-logo">
-									<img src="img/upc_w108px_X_h95px.jpg" alt="Cable-Wireless logo">
-								</div>
-								<div class="company-logo">
-									<img src="img/Kyivstarw_w108px_X_h95.jpg" alt="Kyivstarw logo">
-								</div>
-							</div>
-
-							<blockquote id="blockquote2">
-								<img src="img/JT-GM-face.png" alt="Buissness Man">
-								<p>Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs,
-									out situations; together we are.."</p>
-								<div class="personal-details personal-details1">
-									<p>
-										<a href="#">ADALE KEHASSAN</a>
-									</p>
-									<p>CIO of Multi-links</p>
-									<div class="person-logo1">
-										<img id="multilinks" src="img/multilinks.png" alt="Multi-links logo">
-									</div>
-								</div>
-							</blockquote>
-					</li>
-					<li>
-						<blockquote id="blockquote3">
-							<div>
-								<img id="quote-grey"src="img/quote-grey.png" alt="Quote icon">
-								<p>Comverse has been able to fully deliver what we want and we have peers..."</p>
-							</div>
-							<div class="personal-details personal-details1">
-									<p>
-										<a href="#">RAVISHANKER</a>
-									</p>
-									<p>Tata Sky CIO N.</p>
-									 <img id="tata-sky" src="img/Tata_Sky_w108px_X_h95px.jpg" alt="Tata Sky logo">
-							</div>
-						</blockquote>
-
-						<div class="logos3">
-							
-								<img src="img/hp.png" alt="HP logo">
-								<img src="img/atos.png" alt="Atos logo">
-							
-						</div>
-					</li>
-				</ul>
-
-				<div id="all-success-stories-btn-div">
-					<a href="#" class="all-success-stories-button">
-					All 256 success stories
-					<img id="all-success-stories-button-arrow" src="img/btnArrow.png" alt="Arrow">
-					</a>
-				</div>
-			</section>	
-		</section>
-	</div>
+		
+	<!-- #################################- SECTION STORIES -################################# -->
 	
 
 
 
+	<div class="section-clients">
+        <section class="section-container">
+        <h1>SUCCESS STORIES</h1>
+            <ul class="clients-list">
+                <li>
+                    <blockquote>
+                        <img src="img/CB-JP-face.png" alt="buisness man">
+                        <p><img src="img/quote-grey.png" alt="quote"> We have very good and very warm relations with Comverse. We always achieved...</p>
+                        <div class="person-details" itemscope itemtype="http://schema.org/Person">
+                            <p itemprop="name"><a href="#">Sergey Korotych</a></p>
+                            <p itemprop="jobTitle">Deputy CTO, 3 Mob Ukraine</p>
+                        </div>
+                        <div class="person-logo"><img src="img/3mob_w108px_X_h95px.jpg" alt="3mob logo"></div>
+                    </blockquote>
+                    <div class="logos logos1">
+                                <div class="company"><img src="img/cycle30.png" alt="cycle logo"></div>
+                                <div class="company"><img src="img/bull.png" alt="Bull logo"></div>
+                                <div class="company"><img src="img/gemplus.png" alt="Gemplus logo"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="logos logos-top logos-full-view">
+                                <div class="company"><img id="mtc" src="img/mtc-logo.png" alt="MTC logo"></div>
+                                <div class="company"><img id="cable" src="img/cable_wireless_w100px_X_h42px2.jpg" alt="Cablewireless logo"></div>
+                                <div class="company"><img id="tatasky" src="img/Tata_Sky_w108px_X_h95px.jpg" alt="Tata Sky"></div>
+                    </div>
+                    <blockquote>
+                    <img src="img/JT-GM-face.png" alt="buisness man">
+                        <p>Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we are..</p>
+                        <div class="person-details" itemscope itemtype="http://schema.org/Person">
+                            <p itemprop="name"><a href="#">ADALE KEHASSAN</a></p>
+                            <p itemprop="jobTitle">CIO of Multi-links</p>
+                        </div>
+                        <div class="person-logo"><img id="multilinks-logo" src="img/multilinks.png" alt="mob logo"></div>
+                    </blockquote>
+                    <div class="logos logos-top logos-responsive-view">
+                                <div class="company"><img id="mtc" src="img/mtc-logo.png" alt="MTC logo"></div>
+                                <div class="company"><img id="cable" src="img/cable_wireless_w100px_X_h42px2.jpg" alt="Cablewireless logo"></div>
+                                <div class="company"><img id="tatasky" src="img/Tata_Sky_w108px_X_h95px.jpg" alt="Tata Sky"></div>
+                    </div>
+                </li>
+                <li>
+                    <blockquote id="blockquote3">
+                        <p><img src="img/quote-grey.png" alt="quote">
+                        	Comverse has been able to fully deliver what we want and we have peers...</p>
+                        <div class="person-details" itemscope itemtype="http://schema.org/Person">
+                            <p itemprop="name"><a href="#">Ravishanker</a></p>
+                            <p itemprop="jobTitle">Tata Sky CIO N.</p>
+                        </div>
+                        <div class="person-logo person-logo3"><img src="img/tatasky.png" alt="tatasky logo"></div>
+                    </blockquote>
+                    <div class="logos logos3">
+                                <div class="company"><img src="img/hp.png" alt="HP logo"></div>
+                                <div class="company"><img src="img/atos.png" alt="Atos logo"></div>
+                    </div>
+                </li>
+        </ul>
+
+	<div class="more-stories">
+            <a href="#" class="more-btn">All 256 Sucess Stories</a>
+        </div>
+
+        <div class="scroll-to-top">
+					<a class=" scroll-to-top-btn" href="#">
+						<img class="scroll-img" src="img/back_top.png" alt="arrow">
+					</a>
+		</div>
+        
+
+        </section>
+        </div>
+
+
+	<!-- #################################- FOOTER -################################# -->
+        <ul class="footerMobile">
+					
+				
+				<a href="#">
+					<li>CONTACT US</li>
+				</a>
+				<a href="#">
+					<li>SUBSCRIBE TO COMVERSE NEWS</li>
+				</a>
+				<a href ="#">
+				<li>
+				VISIT US ON :
+                    <a class="youtube-logo" href="#"></a>
+                    <a class="twitter-logo" href="#"></a>
+                    <a class="linkedin-logo" href="#"></a>
+                
+				</li>
+
+				</a>
+					<li>Change language:
+						<select class="footerlanguage" name="">
+							<option value="English">English</option>
+							<option value="Hebrew">Hebrew</option>
+							<option value="Arabic">Arabic</option>
+						</select>
+					</li>      
+                        
+                </ul>
+                <p class="mobCopyright">Copyright © 2015 Comverse, Inc. &nbsp; | &nbsp; <a href="#">Privacy Policy</a>
+
+				&nbsp; | &nbsp; <a href="#">SiteMap</a>
+
+                </p>
 <footer>
         <div class="footer-block">
             <div class="footer-data">
