@@ -60,25 +60,27 @@
 						<a href="#">NEWS &amp; MEDIA</a>
 					</li>
 					<li>
-						<a href="##">ABOUT COMVERSE</a>
+						<a href="#">ABOUT COMVERSE</a>
 					</li>
 				</ul>
 			</nav>
 			 <label class="mobile-search-icon" for="mobile-search"><a href="http://www.google.com/search"><img src="img/searchBtnMobile.png" alt="search"></a></label>
 
 			<div class="nav-side">
-			<label for="">
-				<select class="lang-select">
+		
+				<select class="lang-select" title="Langues">
 					<option>EN</option>
 					<option>AR</option>
 					<option>HE</option>
 				</select>
-			</label>
+			
 				<a id="costumer-login" href="#">Costumer login</a>
 			</div>
 
-			<form class="search-field" method="GET" action="http://www.google.com/search">
-	    		<input type="text" name="q" />
+			<form class="search-field" method="GET" action="http://www.google.com/search" title="search-box">
+				<label for="searchtxt" class="hidden">
+	    			<input type="text" name="q" />
+	    		</label>
 	    		
 	    		<button type="submit">
 	    			<img id="btn-divider" src="img/divider.png" alt="divider"/>
