@@ -230,7 +230,9 @@ ol.carousel-nav {
     float: left;
     margin-left: 3px;
 
-} 
+}
+
+ 
 
 .not-selected:hover {
 	background-color: #3399CC;
