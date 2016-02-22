@@ -232,7 +232,7 @@ ol.carousel-nav {
 
 }
 
- 
+
 
 .not-selected:hover {
 	background-color: #3399CC;
@@ -428,7 +428,8 @@ width: 146px;
 }
 
 
-#solutions-button-arrow {
+#solutions-button-arrow ,
+#stories-button-arrow {
 	padding-left: 10px;
 	margin-bottom: -2px;
 }
@@ -567,7 +568,7 @@ h1.event-date {
 
   .section-clients .section-container .more-stories {
   margin-top: 42px;
-  display: inline-block;
+  /*display: inline-block;*/
     margin-bottom: 20px;
   position: relative;
   }
@@ -719,7 +720,7 @@ padding-left: 0px;
   font-family: arial;
   color: #FFFFFF !important;
   font-size: 14px;
-  padding: 8px 22px;
+  padding: 8px 15px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
