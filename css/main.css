@@ -871,7 +871,8 @@ footer {
 	margin-left: -37px;
 }
 
-.footer-right h4 {
+.footer-right h4 ,
+.footer-right h3 {
     color: #3195c9;
     font-size: 20px;
     text-transform: uppercase;
@@ -927,7 +928,7 @@ footer {
 }
 
 #footer-right-subscribe {
-	font-size: 16px;
+	font-size: 15.5px;
 }
 
 #email {
