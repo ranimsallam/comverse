@@ -800,8 +800,8 @@ blockquote:hover:after {
 
 .company:hover:after {
 	height: 50px;
-	z-index: 1;
 	transform: translateY(-100%);
+    z-index: -1;
 }
 
 .logos3 > div:after{
