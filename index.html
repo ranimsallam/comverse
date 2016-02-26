@@ -66,11 +66,14 @@
 					</li>
 				</ul>
 			</nav>
-			 <label class="mobile-search-icon" for="mobile-search"><a href="http://www.google.com/search"><img src="img/searchBtnMobile.png" alt="search"></a></label>
+			 <label class="mobile-search-icon" for="mobile-search"> <span class="hidden">m</span></label>
+			 	<a href="http://www.google.com/search">
+			 		<img src="img/searchBtnMobile.png" alt="search">
+			 	</a>
 
 			<div class="nav-side">
-		
-				<select class="lang-select" title="Langues">
+				<label for="languages"><span class="hidden">l</span></label>
+				<select class="lang-select" id="languages" title="Langues">
 					<option>EN</option>
 					<option>AR</option>
 					<option>HE</option>
@@ -87,7 +90,7 @@
 	    		
 	    		<button type="submit">
 	    			<img id="btn-divider" src="img/divider.png" alt="divider"/>
-	    			<img src="img/searchBtn.png" alt="Search" />
+	    			<img src="img/searchBtn.png" alt="Search icon" />
 	    		</button>
 			</form>
 		</div>
@@ -103,7 +106,7 @@
 	       	</div>
 	       		 <a href="#" class="learn-more-btn">
 	       		 	LEARN MORE
-	       		 	<img id="button-arrow" src="img/btnArrow.png" alt="Arrow">
+	       		 	<img id="button-arrow" src="img/btnArrow.png" alt="Arrow icon">
 	       		 </a>
 	       	
 			
@@ -134,7 +137,7 @@
 			                        <h2 class="cube-text">Comverse is Value-Added Service Global Market Leader.</h2>
 			                    </a>
 			                    <a href="#">
-			                    	<img id="link-icon" src="img/link-icon-image.png" alt="Link Image">
+			                    	<img id="link-icon" src="img/link-icon-image.png" alt="Read more icon">
 			                    	Read more
 			                    </a>
 			                </section>
@@ -144,7 +147,7 @@
 			                <section>
 			                    <h2 class="cube-text">Managed Services World Congress September 18-19 Berlin, Germany.</h2>
 			                    <a href="#">
-			                    <img id="text-icon" src="img/text-image.png" alt="Text Image">
+			                    <img id="text-icon" src="img/text-image.png" alt="Read more icon">
 			                    Read more
 			                    </a>
 			                </section>
@@ -155,7 +158,7 @@
 			                <section>
 			                    <h2 class="cube-text">Comverse: Enabling a world of Connected Possibilities.</h2>
 			                    <a href="#">
-			                    <img id="play-icon" src="img/play-icon.png" alt="Play Image">
+			                    <img id="play-icon" src="img/play-icon.png" alt="Watch now icon">
 			                    Watch now
 			                    </a>
 			                </section>
@@ -225,7 +228,7 @@
 			<div class="more-solutions-div">
             <a href="#" class="solutions-button">
 				See all of our solutions
-				<img id="solutions-button-arrow" src="img/btnArrow.png" alt="Arrow">
+				<img id="solutions-button-arrow" src="img/btnArrow.png" alt="Arrow icon">
 			</a>
 			</div>
 
@@ -352,7 +355,7 @@
 
 		<div class="more-stories">
             <a href="#" class="more-btn">All 256 Sucess Stories
-            	<img id="stories-button-arrow" src="img/btnArrow.png" alt="Arrow">
+            	<img id="stories-button-arrow" src="img/btnArrow.png" alt="Arrow icon">
             </a>
         </div>
 
@@ -390,7 +393,8 @@
 
 				</a>
 					<li>Change language:
-						<select class="footerlanguage" name="" title="Languages">
+						<label for="change-lang"><span class="hidden">l</span></label>
+						<select class="footerlanguage" name="" id="change-lang" title="Languages">
 							<option value="English">English</option>
 							<option value="Hebrew">Hebrew</option>
 							<option value="Arabic">Arabic</option>
